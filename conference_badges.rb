@@ -20,3 +20,11 @@ def assign_rooms(attendees)
   return room_assignments
 end
     
+def printer(badges, room_assignments)
+  badges.each do |badge|
+    print badge
+  end
+  room_assignments.each do |assignment|
+    print assignment
+  end
+end
