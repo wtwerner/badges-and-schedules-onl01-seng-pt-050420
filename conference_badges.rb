@@ -12,6 +12,6 @@ end
 
 def assign_rooms(attendees)
   count = 1
-  rooms
+  room_assignment = []
   attendees.each do |name|
     
