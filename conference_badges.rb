@@ -7,4 +7,5 @@ def badge_maker_creator(names)
   names.each do |name|
     arr << "Hello, my name is #{name}"
   end
+  return arr
 end
