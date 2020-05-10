@@ -4,4 +4,7 @@ end
 
 def badge_maker_creator(names)
   arr=[]
-  names.
+  names.each do |name|
+    arr << "Hello, my name is #{name}"
+  end
+end
