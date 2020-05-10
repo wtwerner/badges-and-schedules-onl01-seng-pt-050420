@@ -21,8 +21,10 @@ def assign_rooms(attendees)
 end
     
 def printer(attendees)
+  count = 0
   attendees.each do |attendee|
-    puts badges
-    puts room_assignments
+    puts badges[0]
+    puts room_assignments[0]
+    count += 1
   end
 end
