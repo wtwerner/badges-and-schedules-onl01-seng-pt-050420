@@ -22,9 +22,9 @@ end
     
 def printer(badges, room_assignments)
   badges.each do |badge|
-    print badge
+    puts badge
   end
   room_assignments.each do |assignment|
-    print assignment
+    puts assignment
   end
 end
